@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Duku-BMI Calculator</title>
+  <link href="/styles/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="container">
+    <div id="input-fields">
+      <h1 id="h1">Calculate your BMI</h1>
+      <form action="">
+        <label><input type="number" min="1" name="weight" id="weight" placeholder="weight in kg" /></label><br>
+        <label><input type="number" min="1" name="height" id="height" placeholder=" height in m" /></label><br>
+        <input type="button" name="BMI" id="calculate" value="Calculate" />
+        <input type="reset" id="reset">
+      </form>
+      <ul>
+        <li>Underweight: BMI is under 18.5</li>
+        <li>Normal weight: BMI is 18.5 to 24.9
+        <li>
+        <li>Overweight: BMI is 25 to 29.9 </li>
+        <li>Obese: BMI is 30 to 34.9</li>
+        <li>Extremely Obese: BMI is over 34.9</li>
+      </ul>
+      <div id="desc"></div>
+    </div>
+    <div id="description">
+      <div id="picture">
+        <div><img id="image" src="/assets/img/default.jpg" /></div>
+      </div>
+    </div>
+  </div>
+  <script src="mains.js"></script>
+</body>
+
+</html>
