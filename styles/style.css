@@ -76,7 +76,7 @@ ul{
   width: 50%;
 }
 #desc {
-  width: 380px;
+  width: 360px;
   background-color: dodgerblue;
   padding: 6% 0;
   text-align: center;
@@ -86,7 +86,7 @@ ul{
   border: 6px solid rgba(0, 0, 0, 0.644);
   border-radius: 35px;
 }
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   #input-fields {
     margin-left: 0px;
     width: 200px;
@@ -95,7 +95,7 @@ ul{
     margin: 0 1px;
   }
   img {
-    width: 400px;
+    width: 360px;
   }
   h1 {
     font-size: 20px;
@@ -107,6 +107,18 @@ ul{
   body{
     box-shadow: none;
   }
+
+  #description {
+    margin-top: 3px 3px;
+    width: 95%;
+    min-width: 250px;
+  }
+
+  #desc {
+    overflow: hidden;
+    
+  }
+
   #input-fields{
     margin-left: 0px;
     width: 100px;
