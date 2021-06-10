@@ -1,14 +1,20 @@
 * {
-  background-color: powderblue;
+  background-color: rgb(255, 255, 255);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 #h1 {
+  background-color: powderblue;
   font-size: 60px;
   margin-bottom: 10px;
   width: auto;
 }
+
+form{
+  background-color: powderblue;
+}
+
 input {
   font-size: 16px;
   margin-bottom: 10px;
@@ -17,6 +23,7 @@ input {
 }
 
 #input-fields {
+  background-color: powderblue;
   width: 550px;
   margin: auto;
 }
@@ -47,6 +54,7 @@ input {
 }
 
 ul{
+  background-color: powderblue;
   font-style: italic;
   font-size: 20px;
   list-style-type: none;
@@ -54,7 +62,12 @@ ul{
   padding-bottom: 15px;
 }
 
+li{
+  background-color: powderblue;
+}
+
 #container {
+  background-color: powderblue;
   box-shadow: gray 15px 10px 10px;
   display: flex;
   flex-wrap: wrap;
@@ -63,6 +76,7 @@ ul{
 
 
 #description {
+  background-color: powderblue;
   margin-top: 3%;
   text-align: center;
   width: 50%;
