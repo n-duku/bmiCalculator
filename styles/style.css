@@ -41,6 +41,10 @@ input {
   background-color: #102c79;
 }
 
+#aroundImage{
+  background-color: powderblue;
+}
+
 #reset{
   width: 90px;
   margin-left: 0;
@@ -64,6 +68,10 @@ ul{
 
 li{
   background-color: powderblue;
+}
+
+#image{
+  border-radius: 15px;
 }
 
 #container {
