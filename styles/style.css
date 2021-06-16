@@ -39,6 +39,7 @@ input {
 }
 #calculate:hover {
   background-color: #102c79;
+  cursor: pointer;
 }
 
 #aroundImage{
@@ -55,6 +56,11 @@ input {
   color: white;
   font-size: 18px;
   outline: none;
+}
+
+#reset:hover{
+  background-color: #102c79;
+  cursor: pointer;
 }
 
 ul{
